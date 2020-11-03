@@ -50,6 +50,7 @@
   <remove-project name="packages_apps_Nfc" />
   <remove-project name="packages_apps_Settings" />
   <remove-project name="packages_services_BuiltInPrintService" />
+  <remove-project name="platform/external/aac" />
   <remove-project name="platform/external/chromium-libpac" />
   <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/dng_sdk" />
@@ -156,6 +157,7 @@
   <project path="vendor/codeaurora/telephony" name="AICP/vendor_codeaurora_telephony" remote="aicp" />
 
   <!-- Lineage repositories -->
+  <project path="external/aac" name="android_external_aac" groups="pdk" remote="lineage" />
   <project path="external/chromium-libpac" name="android_external_chromium-libpac" groups="pdk" remote="lineage" />
   <project path="external/chromium-webview" name="android_external_chromium-webview" groups="pdk" clone-depth="1" remote="lineage" revision="master" />
   <project path="external/dng_sdk" name="android_external_dng_sdk" groups="pdk" remote="lineage" />
