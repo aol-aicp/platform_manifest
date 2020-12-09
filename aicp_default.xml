@@ -75,6 +75,7 @@
   <remove-project name="platform/prebuilts/clang/host/linux-x86" />
   <remove-project name="platform/system/extras" />
   <remove-project name="platform/system/keymaster" />
+  <remove-project name="platform/system/media" />
   <remove-project name="platform/system/nfc" />
   <remove-project name="platform/system/security" />
   <remove-project name="platform/system/timezone" />
@@ -207,6 +208,7 @@
   <project path="system/extras" name="android_system_extras" groups="pdk" remote="lineage" />
   <project path="system/extras/su" name="android_system_extras_su" remote="lineage" />
   <project path="system/keymaster" name="android_system_keymaster" groups="pdk" remote="lineage" />
+  <project path="system/media" name="android_system_media" groups="pdk" remote="lineage" />
   <project path="system/nfc" name="android_system_nfc" groups="pdk" remote="lineage" />
   <project path="system/timezone" name="android_system_timezone" groups="pdk" remote="lineage" />
   <project path="test/vts-testcase/vndk" name="android_test_vts-testcase_vndk" groups="vts,pdk" remote="lineage" />
